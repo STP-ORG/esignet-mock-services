@@ -16,7 +16,7 @@ export default function NavHeader({ langOptions, i18nKeyPrefix = "background" })
   const fallbackLang =
     fallbackLangObj !== ""
       ? JSON.parse(fallbackLangObj)
-      : { label: "English", value: "en" };
+      : { label: "Português", value: "pt" };
 
   const changeLanguageHandler = (e) => {
     i18n.changeLanguage(e.value);
